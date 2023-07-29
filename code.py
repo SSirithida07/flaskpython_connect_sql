@@ -12,11 +12,11 @@ app = Flask(__name__)
 # Establish a database connection
 def get_connection():
     return pymysql.connect(
-        host="127.0.0.1", #localhost
-        port=3308,#บรรทัดนี้ไม่มีก็ได้
+        host=" " ,#localhost
+        port= #บรรทัดนี้ไม่มีก็ได้
         user="root",
         password="",
-        db="db_northwind"#ชื่อsqlที่เราต้องการดึงข้แมูลกันมา
+        db="" #ชื่อsqlที่เราต้องการดึงข้แมูลกันมา
     )
 
 
